@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro ex de JS</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+            background-color: rgb(105, 105, 237);
+            color: white;
+        }
+
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World!!</h1>
+    <p>Pronto, já quebrei a maldição...</p>
+    <script>
+       var n1 = Number(window.prompt('Digite um número'))
+       var n2 = Number(window.prompt('Digite outro número'))
+       var s = n1 + n2 
+       window.alert ('A soma os números é ' + s)
+       /* Aqui não funciona colocando assim, pois o sinal de + indica uma concatenação ou uma adição 
+       (number + number) dá uma adição
+       (string + string) dá uma concatenação
+       O problema aqui é que o prompt gera um string, independentemente de se ter digitado um número
+
+       Pra solucionar o problema, precisamos converter de string para number 
+
+       Number.parseInt(n) para um número inteiro
+       Number.parseFloat(n) para um número com vírgula - como 5,5
+       a forma genérica quando não se sabe ou não tem a necessidade de especificar se é inteiro ou é real é simplesmente
+
+       Number(n)
+
+       Para converter para string:
+
+       String(n)
+       n.toString()
+       */
+    </script>
+</body>
+</html>

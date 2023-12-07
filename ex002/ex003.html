@@ -23,7 +23,8 @@
        var n1 = Number(window.prompt('Digite um número'))
        var n2 = Number(window.prompt('Digite outro número'))
        var s = n1 + n2 
-       window.alert ('A soma os números é ' + s)
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+       //window.alert ('A soma os números é ' + s)
        /* Aqui não funciona colocando assim, pois o sinal de + indica uma concatenação ou uma adição 
        (number + number) dá uma adição
        (string + string) dá uma concatenação
@@ -41,7 +42,14 @@
 
        String(n)
        n.toString()
+
+       EX:
+        var s = 'JavaScript'
+       'Estou aprendedo s' //não faz interpolação
+       'Estou aprendedo ' = s //usa concatenação
+       `Estou aprendedo ${s}`//usa template string
        */
+
     </script>
 </body>
 </html>

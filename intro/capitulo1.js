@@ -2,23 +2,31 @@ moneyCofla = prompt("Cofla, quanto de dinheiro você tem? ");
 moneyRoberto= prompt("Roberto, quanto de dinheiro você tem? ");
 moneyPedro = prompt("Pedro, quanto de dinheiro você tem? ");
 
+moneyCofla = parseInt(moneyCofla);
+
 if (moneyCofla >= 0.6 && moneyCofla < 1) {
     alert("Cofla, você pode comprar Sorvete de Água!");
+    alert("E te sobra " + (moneyCofla - 0.6));
 }
 else if (moneyCofla >= 1 && moneyCofla < 1.6) {
     alert("Cofla, você pode comprar Sorvete de Creme!");
+    alert("E te sobra " + (moneyCofla - 1));
 }
 else if (moneyCofla >= 1.6 && moneyCofla < 1.7) {
     alert("Cofla, você pode comprar Sorvete Heladix!");
+    alert("E te sobra " + (moneyCofla - 1.6));
 }
 else if (moneyCofla >= 1.7 && moneyCofla < 1.8) {
     alert("Cofla, você pode comprar Sorvete Heladovich!");
+    alert("E te sobra " + (moneyCofla - 1.7));
 }
 else if (moneyCofla >= 1.8 && moneyCofla < 2.9) {
     alert("Cofla, você pode comprar Sorvete Helardo!");
+    alert("E te sobra " + (moneyCofla - 1.8));
 }
 else if (moneyCofla >= 2.9) {
     alert("Cofla, você pode comprar Sorvete com Confete! Ou pote de 1/4kg ");
+    alert("E te sobra " + (moneyCofla - 2.9));
 } else {
     alert("Cofla, você não tem dinheiro suficiente! =( ");
 }

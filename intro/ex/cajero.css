@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    padding: 40px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+div#saldo {
+    padding: 50px;
+    border: 2px solid #958e8e;
+    width: 400px;
+    height: auto;
+    background-color: #c6bdbd;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+p {
+    padding: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button{
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(8, 123, 27);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.34);
+}
+button:hover {
+    background-color: rgb(12, 181, 12);
+}
+

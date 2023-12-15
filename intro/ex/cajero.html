@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Cajero automático</title>
+    <link rel="stylesheet" href="cajero.css">
+</head>
+<body onload="exibirMonto()">
+    <h1> Bienvenido a tu Cajero Automático</h1>
+    <div>
+        <p id="monto">Tu monto es: <script> exibirMonto(); </script></p>
+    
+    </div>
+    <div>
+        <p>Que operación desea realizar?</p>
+        <button onclick="retiro()">Retiro</button>
+        <button onclick="deposito()">Deposito</button>
+    </div>
+
+    
+    <script src="cajero.js"></script>
+</body>
+</html>

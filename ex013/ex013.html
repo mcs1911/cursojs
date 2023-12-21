@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch e break</title>
+</head>
+<body>
+    <script>
+        var agora = new Date();
+        var diaSem = agora.getDay();
+
+        /*
+        0 = Domingo
+        1 = Segunda
+        2 = Terça
+        3 = Quarta
+        4 = Quinta
+        5 = Sexta
+        6 = Sabado
+        */
+       //document.write(diaSem);
+
+       switch(diaSem){
+            case 0:
+            document.write('Domingo');
+            break // o break é indispensável para o switch, para que o programa possa seguir quando encontre a solução
+
+            case 1:
+            document.write('Segunda');
+            break
+
+            case 2:
+            document.write('Terça');
+            break
+
+            case 3:
+            document.write('Quarta');
+            break
+
+            case 4:
+            document.write('Quinta');
+            break
+
+            case 5:
+            document.write('Sexta');
+            break
+
+            case 6:
+            document.write('Sabado');
+            break
+
+            default:
+            document.write('ERRO - Dia inválido');
+
+       }
+    </script>
+</body>
+</html>

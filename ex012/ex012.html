@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício saludo!</title>
+</head>
+<body>
+    <script>
+        var agora = new Date();
+        var hora = agora.getHours();
+        var minutos = agora.getMinutes();
+        document.write(`Agora são ${hora}hs e ${minutos}minutos.<br>`);
+        if (hora < 12){
+            document.write(`Bom dia!`);
+        } else if (hora <= 1 &&  hora <= 6){
+            document.write(`Boa Tarde!`);
+        } else {
+            document.write(`Boa noite!`);
+        }
+    </script>
+</body>
+</html>

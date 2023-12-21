@@ -30,4 +30,3 @@ function carregar(){
         bom.innerHTML = ('Boa Noite!');
     }
 }
-carregar();
